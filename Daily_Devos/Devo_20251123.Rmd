@@ -1,0 +1,82 @@
+---
+output:
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: !expr here::here("svm-latex-ms.tex")
+    highlight: pygments
+header-includes:
+  - \usepackage{hyperref}
+  - \usepackage{array}
+  - \usepackage{caption}
+  - \usepackage{graphicx}
+  - \usepackage{siunitx}
+  - \usepackage[table]{xcolor}
+  - \usepackage{multirow}
+  - \usepackage{hhline}
+  - \usepackage{calc}
+  - \usepackage{tabularx}
+  - \usepackage{fontawesome}
+  - \usepackage[para,online,flushleft]{threeparttable}
+  - \usepackage{amsmath}
+  - \usepackage{amsfonts}
+  - \usepackage{amssymb}
+  - \usepackage{booktabs}
+  - \usepackage{siunitx}
+  - \setlength{\parindent}{0pt}
+  - \setlength{\parskip}{1em}
+biblio-style: apsr
+title: "`r paste('Daily Reading', params$date, sep = ' ')`"
+author:
+- name: "`r paste(params$author)`"
+  affiliation: Grace Church Waco
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: libertine
+fontsize: 11pt
+endnote: no
+params:
+  date: "November 23, 2025"
+  author: "Carson Slater"
+---
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(
+  dev = "cairo_pdf",
+  fig.width = 5,
+  fig.height = 5,
+  fig.align = 'center',
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE,
+  results = 'markup'
+)
+
+theme_set(theme_minimal(base_family = "Roboto Condensed"))
+```
+
+
+## Reading Through the Bible
+
+<!-- Note what you are reading today, characters, themes, a summary of the narrative, any useful context, etc. -->
+
+
+## Proverbs and Psalms
+
+<!-- Note what you read today, and what the Psalm/Proverb was saying. Note how it ministered to you. -->
+
+<!-- Alternate between Psalms and Proverbs each month (or morning?!) -->
+
+
+## Deep Dive
+
+<!-- Break out an extrabiblical text or commentary on the text you are reading. Note what you learned from this deeper study. -->
+
+<!-- ## Notes -->
+
+<!-- ## Other Thoughts -->
+
+<!-- ## Prayers -->
