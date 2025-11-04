@@ -26,7 +26,7 @@ daily_rmd_paths <- list.files(
   full.names = TRUE
 )
 
-lapply(daily_rmd_paths, function(path) {
+lapply(daily_rmd_paths[1], function(path) {
   rmarkdown::render(
     input = path,
     output_format = "pdf_document",
