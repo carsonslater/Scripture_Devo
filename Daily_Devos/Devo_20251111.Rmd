@@ -59,10 +59,10 @@ theme_set(theme_minimal(base_family = "Roboto Condensed"))
 ```
 
 
-## Reading Through the Bible
+## Reading Through the Bible (Ezekiel 10-12, 1 Peter 3)
 
 <!-- Note what you are reading today, characters, themes, a summary of the narrative, any useful context, etc. -->
-
+Ezekiel chapters 10-12 detail the final stages of God's withdrawal from Jerusalem and the imminent certainty of the city's destruction and the people's exile. Chapter 10 describes the Glory of the Lord moving definitively away from the Temple to the city's east gate, signifying God's abandonment of the sanctuary due to the nation's sin, leaving Jerusalem vulnerable to judgment, which is symbolized by the scattering of fire over the city. Chapter 11 delivers a fierce judgment against the wicked leaders of Jerusalem, who are plotting evil, confirming their death outside the city walls. Critically, this chapter pivots to offer a promise of future restoration for the scattered exiles, declaring that God will be a "little sanctuary" for them and will give them a "new heart" upon their eventual return. Finally, Chapter 12 emphasizes the immediacy of the judgment by commanding Ezekiel to perform a symbolic sign-act—packing an exile's bag and escaping through a hole in the wall with his face covered—to represent the sudden, forced captivity of the people, especially King Zedekiah, whose fate is sealed, contradicting the people's cynical proverb that "The days are prolonged, and every vision fails."
 
 ## Proverbs and Psalms
 
