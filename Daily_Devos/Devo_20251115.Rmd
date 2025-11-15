@@ -59,19 +59,23 @@ theme_set(theme_minimal(base_family = "Roboto Condensed"))
 ```
 
 
-## Reading Through the Bible
+## Reading Through the Bible (Ezekiel 15-16)
 
 <!-- Note what you are reading today, characters, themes, a summary of the narrative, any useful context, etc. -->
 
+In Ezekiel 15, God condemns Jerusalem for being a useless vine. He states to Ezekiel that he will toss them into the fire as if they were wood, making the land desolate. It is said they will escape the fire, but will be consumed by the fire, that they might know Yahweh is Lord. Ezekiel 16 is very long and tells a parable of a women being born and left in a field without basic compassion, such as an uncut cord, no washing, no cloth to be wrapped in. Then Yahweh passes by this woman and saw the cast out woman and cried out to "Live!" Later, God passes by the woman again and she has arrived at 'full adornment,' but she was still naked. God nourished her, bathed her, and covered her nakedness, and she went on to whore over all the land. It is said that God will gather all her lovers and expose her, stone her, and cut her to pieces with swords. Despite these promises, God does not forget his covenant with Israel, and he promises to establish an everlasting covenant.
 
-## Proverbs and Psalms
+\begin{quote}
+"I will establish my covenant with you, and you shall know that I am the \texttt{LORD}, that you may remember and be confounded, and never open your mouth again because of you shame, when I atone for you all that you have done, declares the Lord God.\footnote{Ezekiel 16:62-63, ESV.}"
+\end{quote}
+<!-- ## Proverbs and Psalms -->
 
 <!-- Note what you read today, and what the Psalm/Proverb was saying. Note how it ministered to you. -->
 
 <!-- Alternate between Psalms and Proverbs each month (or morning?!) -->
 
 
-## Deep Dive
+<!-- ## Deep Dive -->
 
 <!-- Break out an extrabiblical text or commentary on the text you are reading. Note what you learned from this deeper study. -->
 
