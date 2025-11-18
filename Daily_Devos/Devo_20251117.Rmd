@@ -1,0 +1,99 @@
+---
+output:
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: !expr here::here("svm-latex-ms.tex")
+    highlight: pygments
+header-includes:
+  - \usepackage{hyperref}
+  - \usepackage{array}
+  - \usepackage{caption}
+  - \usepackage{graphicx}
+  - \usepackage{siunitx}
+  - \usepackage[table]{xcolor}
+  - \usepackage{multirow}
+  - \usepackage{hhline}
+  - \usepackage{calc}
+  - \usepackage{tabularx}
+  - \usepackage{fontawesome}
+  - \usepackage[para,online,flushleft]{threeparttable}
+  - \usepackage{amsmath}
+  - \usepackage{amsfonts}
+  - \usepackage{amssymb}
+  - \usepackage{booktabs}
+  - \usepackage{siunitx}
+  - \setlength{\parindent}{0pt}
+  - \setlength{\parskip}{1em}
+biblio-style: apsr
+title: "`r paste('Daily Reading', params$date, sep = ' ')`"
+author:
+- name: "`r paste(params$author)`"
+  affiliation: Grace Church Waco
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: libertine
+fontsize: 11pt
+endnote: no
+params:
+  date: "November 17, 2025"
+  author: "Carson Slater"
+---
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(
+  dev = "cairo_pdf",
+  fig.width = 5,
+  fig.height = 5,
+  fig.align = 'center',
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE,
+  results = 'markup'
+)
+
+theme_set(theme_minimal(base_family = "Roboto Condensed"))
+```
+
+
+## Reading Through the Bible (Ezekiel 17-18)
+
+<!-- Note what you are reading today, characters, themes, a summary of the narrative, any useful context, etc. -->
+
+The word of the Lord come to Ezekiel again at the beginning of chapter 17. He describes a 'riddle' whereby an eagle with 'great wings,' 'long pinions,' and a 'plumage of many colors' took the top of a cedar and set it in a city of merchants. It ended up being planted there by a stream of water and it began to grow into a vine with branches.
+
+Then a second eagle appeared and the vine bent its roots toward it, expecting the second eagle to water it, even though it was planted on good soil by abundant waters. Ezekiel is prompted to ask those listening, 'Will it live?'
+
+I suppose this is actually a metaphor for the people of Israel. The first eagle is the Lord, entrusting them with Jerusalem and building them into a great nation with much commerce. The second eagle is Babylon, and the people of Israel began to shoot its roots toward Babylon for nourishment.
+
+\begin{quote}
+  “As I live, declares the Lord God , surely in the place where the king dwells who made him king, whose oath he despised, and whose covenant with him he broke, in Babylon he shall die. Pharaoh with his mighty army and great company will not help him in war, when mounds are cast up and siege walls built to cut off many lives. He despised the oath in breaking the covenant, and behold, he gave his hand and did all these things; he shall not escape."\footnote{Ezekiel 17:16-18, ESV.}
+\end{quote}
+
+Chapter 17 concludes with God promising himself to take a sprig from the lofty top of the cedar and set it out, and plant it 'on the mountain height of Israel.' God says that under it will dwell 'every kind of bird.'\footnote{Ibid, verse 23.} He will make low the high tree and make high the low tree. He will dry up the green tree and make the dry tree flourish.\footnote{I can't help but wonder if this is some sort of great redistribution. When will it happen? Has it happened?}
+
+Chapter 18 is equally interesting, but less dense. God condems the use of a proverb in israel at the time, being "The fathers have eaten sour grapes and the children's teeth are set on edge." He begins to delineate between fathers and sons and affirms that sin can be broken generationally (I think?). He asks Israel to repent and turn from their ways, and to cast away transgressions.
+
+\begin{quote}
+  "Cast away from you all the transgressions that you have committed, and make yourselves a new heart and a new spirit! Why will you die, O house of Israel? For I have no pleasure in the death of anyone, declares the Lord God ; so turn, and live."\footnote{Ezekiel 18:31-32, ESV.}
+\end{quote}
+
+<!-- ## Proverbs and Psalms -->
+
+<!-- Note what you read today, and what the Psalm/Proverb was saying. Note how it ministered to you. -->
+
+<!-- Alternate between Psalms and Proverbs each month (or morning?!) -->
+
+
+<!-- ## Deep Dive -->
+
+<!-- Break out an extrabiblical text or commentary on the text you are reading. Note what you learned from this deeper study. -->
+
+<!-- ## Notes -->
+
+<!-- ## Other Thoughts -->
+
+<!-- ## Prayers -->
