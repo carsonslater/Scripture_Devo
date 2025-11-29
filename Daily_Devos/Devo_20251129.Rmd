@@ -1,0 +1,105 @@
+---
+output:
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: !expr here::here("svm-latex-ms.tex")
+    highlight: pygments
+header-includes:
+  - \usepackage{hyperref}
+  - \usepackage{array}
+  - \usepackage{caption}
+  - \usepackage{graphicx}
+  - \usepackage{siunitx}
+  - \usepackage[table]{xcolor}
+  - \usepackage{multirow}
+  - \usepackage{hhline}
+  - \usepackage{calc}
+  - \usepackage{tabularx}
+  - \usepackage{fontawesome}
+  - \usepackage[para,online,flushleft]{threeparttable}
+  - \usepackage{amsmath}
+  - \usepackage{amsfonts}
+  - \usepackage{amssymb}
+  - \usepackage{booktabs}
+  - \usepackage{siunitx}
+  - \setlength{\parindent}{0pt}
+  - \setlength{\parskip}{1em}
+biblio-style: apsr
+title: "`r paste('Daily Reading', params$date, sep = ' ')`"
+author:
+- name: "`r paste(params$author)`"
+  affiliation: Grace Church Waco
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: libertine
+fontsize: 11pt
+endnote: no
+params:
+  date: "November 29, 2025"
+  author: "Carson Slater"
+---
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(
+  dev = "cairo_pdf",
+  fig.width = 5,
+  fig.height = 5,
+  fig.align = 'center',
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE,
+  results = 'markup'
+)
+
+theme_set(theme_minimal(base_family = "Roboto Condensed"))
+```
+
+
+## Reading Through the Bible (Isaiah 1-2)
+
+<!-- Note what you are reading today, characters, themes, a summary of the narrative, any useful context, etc. -->
+
+Isaiah 1 describes a people who are distant from God's design for them. They have grown unholy, not distinct from the peoples around them. He describes an idolatrous people but it is not without hope.
+
+\begin{quote}
+  "When you spread out your hands, I will hide my eyes from you; even though you make many prayers, I will not listen; your hands are full of blood. Wash yourselves; make yourselves clean; remove the evil of your deeds from before my eyes; cease to do evil, learn to do good; seek justice, correct oppression; bring justice to the fatherless, plead the widow’s cause. 'Come now, let us reason together, says the Lord : though your sins are like scarlet, they shall be as white as snow; though they are red like crimson, they shall become like wool.'" \hfill Isaiah 1:15-18, ESV
+\end{quote}
+
+Additionally, he describes the 'faithful city' and how it has become adulterous.
+
+\begin{quote}
+"For they shall be ashamed of the oaks that you desired; and you shall blush for the gardens that you have chosen. For you shall be like an oak whose leaf withers, and like a garden without water." \hfill Isaiah 1:29-30, ESV
+\end{quote}
+
+Isaiah chapter 2 begins with a vision of the house of the Lord shall be established in the highest place. The 'house of Jacob' has rejected themselves as the vessel of God's self-disclosure to humanity.
+
+\begin{quote}
+"Their land is filled with idols; they bow down to the work of their hands, to what their own fingers have made." \hfill Isaiah 2:8 ESV
+\end{quote}
+
+The rest of the chapter describes a day where God's majesty is made apparent to mankind, and where everyone will hide in caves and crevices (much like Moses did) when his glory and beauty is shown.\footnote{It makes me wonder if beauty as man knows it will be so eroded that they become terrified when they finally see God, to the point that they will refuse him.} Those who are prideful are humbled, and those who are lofty are terrified. The chapter concludes with the following verse,
+
+\begin{quote}
+"Stop regarding man in whose nostrils is breath, for of what account is he?" \hfill Isaiah 2:22
+\end{quote}
+
+<!-- ## Proverbs and Psalms -->
+
+<!-- Note what you read today, and what the Psalm/Proverb was saying. Note how it ministered to you. -->
+
+<!-- Alternate between Psalms and Proverbs each month (or morning?!) -->
+
+
+<!-- ## Deep Dive -->
+
+<!-- Break out an extrabiblical text or commentary on the text you are reading. Note what you learned from this deeper study. -->
+
+<!-- ## Notes -->
+
+<!-- ## Other Thoughts -->
+
+<!-- ## Prayers -->
